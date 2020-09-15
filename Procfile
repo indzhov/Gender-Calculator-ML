@@ -1,1 +1,1 @@
-web: gunicorn psgSlackInvite:app   
+web: gunicorn application:app   
