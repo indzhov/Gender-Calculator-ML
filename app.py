@@ -13,7 +13,7 @@ def man():
     return render_template('home.html')
 
 
-@app.route('/predict', methods=['POST'])
+@app.route('/predict', methods=['POST', 'GET'])
 def home():
     horror = request.form['a']
     thriller = request.form['b']
