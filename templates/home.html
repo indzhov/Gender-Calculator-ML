@@ -1,0 +1,81 @@
+<html>
+    <body bgcolor=#fff>
+
+        <center>
+
+        <h1> Gender Prediction </h1><br>
+        <h3> Put a number corresponding to the degree of your answer in the boxes</h3><br>
+        
+        <form method="POST", action="{{url_for('home')}}">
+           <b> <h3> Movies preferancies: </h3><br>
+            Do you like Horror movies ?  :  <input type="text", name='a', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Do you like Thriller movies ? :  <input type="text", name='b', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Do you like Comedy movies ?  :  <input type="text", name='c', placeholder="disagree 1-2-3-4-5  agree"> <br><br>
+            Do you like Romantic movies ?  :  <input type="text", name='d', placeholder=" disagree 1-2-3-4-5 agree"> <br><br>
+            Do you like Sci-fi movies ?  :  <input type="text", name='e', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Do you like War movies ? :  <input type="text", name='k', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Do you like Fantasy movies ?  :  <input type="text", name='l', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Do you like Animation movies ? : <input type="text", name='m', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Do you like Documentary movies ? : <input type="text", name='g', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Do you like Western movies ? : <input type="text", name='w', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Do you like Action movies ? : <input type="text", name='n', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            <h3> What are your fears: </h3><br>
+            Are you afraid of flying ? : <input type="text", name='s1', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Are you afraid of storms ? : <input type="text", name='s2', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Are you afraid of darkness ? : <input type="text", name='s3', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Are you afraid of heights ? : <input type="text", name='s4', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Are you afraid of spiders ? : <input type="text", name='s5', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Are you afraid of snakes ? : <input type="text", name='s6', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Are you afraid of rats ? : <input type="text", name='s7', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Are you afraid of ageing ? : <input type="text", name='s8', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Are you afraid of dogs ? : <input type="text", name='s9', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Are you afraid of public speaking ?: <input type="text", name='s10', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            <h3> What are your interests: </h3><br>
+            Are you interested in the History? : <input type="text", name='i1', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Are you interested in  the Psychology? : <input type="text", name='i2', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Are you interested in the Politics? : <input type="text", name='i3', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Are you interested in the Mathematics?  : <input type="text", name='i4', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Are you interested in the Physics?  : <input type="text", name='i5', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Do you like to surf the Internet ? : <input type="text", name='i6', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Do you like to use your computer? : <input type="text", name='i7', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Are you interested in the Economy Management? : <input type="text", name='i8', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Are you interested in the Biology? : <input type="text", name='i9', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Are you interested in the Chemistry? : <input type="text", name='i10', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Do you like to read ?  : <input type="text", name='i11', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Are you interested in the Geography? : <input type="text", name='i12', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Do you like to learn new leanguages ?  : <input type="text", name='i13', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Are you interested in the Medicine? : <input type="text", name='i14', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Are you interested in the Law? : <input type="text", name='i15', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Do you like cars ?  : <input type="text", name='i16', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Are you interested in Art Exhibitions ?  : <input type="text", name='i17', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Are you interested in the Religion ?  : <input type="text", name='i18', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Do you like to go to the Countryside?  : <input type="text", name='i19', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Do you like to Dance ?  : <input type="text", name='i20', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Are you interested in music instruments ?  : <input type="text", name='i21', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Do you like to write ?  : <input type="text", name='i22', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Are you interested in the passive sports ?  : <input type="text", name='i23', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Are you interested in the active sports ?  : <input type="text", name='i24', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Do you like to do gardening ?  : <input type="text", name='i25', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Are you interested in celebrities ? : <input type="text", name='i26', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Do you like to go on a shopping ?  : <input type="text", name='i27', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Are you interested in Science and Technology : <input type="text", name='i28', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Do you like the theatre  ? : <input type="text", name='i29', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Do you like to go out with friends ? : <input type="text", name='i30', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Do you like the adrenaline ?  : <input type="text", name='i31', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Do you like pets ?  : <input type="text", name='i32', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            <h3> What are your spending habits: </h3><br>
+            Do you spend money in shopping centres ?  : <input type="text", name='m1', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Do you spend money on brand clothing ?  : <input type="text", name='m2', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Do you spend money on entartainment ?  : <input type="text", name='m3', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Do you spend money on your appearance ?  : <input type="text", name='m4', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Do you spend money for gadgets ?  : <input type="text", name='m5', placeholder="disagree 1-2-3-4-5 agree"> <br><br>
+            Do you spend money for healthy eating ?  : <input type="text", name='m6', placeholder="disagree 1-2-3-4-5 agree"> <br><br><br></b>
+            <input type="submit" , value='predict!' >
+        </form>
+
+        <img src='static\together.png' alt="flower">
+        
+    </center>
+
+    </body>
+</html>
